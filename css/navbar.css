@@ -1,0 +1,67 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 4rem;
+  color: #ffffff;
+  background: none;
+
+  height: 95px;
+  padding: 15px 0px;
+  margin: 0px 165px;
+  border-bottom: rgba(151, 151, 151, 0.2) solid 1px;
+}
+/* HIDE HAMBURGER ICON */
+img.hamburger {
+  display: none;
+}
+ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+
+  /* font-size: 1rem; */
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+a:hover {
+  color: #d87d4a;
+}
+
+/* TABLET */
+@media only screen and (max-width: 768px) {
+  nav {
+    justify-content: space-between;
+    margin: 0px 50px;
+  }
+  a.logo {
+    justify-self: flex-end;
+  }
+
+  img.cart {
+    justify-self: flex-end;
+  }
+
+  img.hamburger {
+    display: block;
+  }
+
+  ul {
+    display: none;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 425px) {
+  nav {
+    justify-content: space-around;
+    gap: 3rem;
+    padding: 15px 15px;
+    margin: 0px 0px;
+  }
+}
