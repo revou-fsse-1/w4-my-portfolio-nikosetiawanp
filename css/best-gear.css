@@ -15,8 +15,7 @@ section.best-gear-container {
   grid-template-columns: 1f 1fr;
   grid-template-rows: 1fr 1fr;
 
-  margin: 0px 165px;
-  padding-top: 100px;
+  margin: 100px 165px;
   gap: 0px 120px;
 }
 
