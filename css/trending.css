@@ -70,7 +70,7 @@ section.trending-container {
   background-image: url(../assets/home/desktop/image-speaker-zx7.jpg);
   background-position: right;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 
   display: flex;
   flex-direction: column;
